@@ -23,6 +23,8 @@ display: none;
 body {
 background-color: var(--bg-color);
 color: var(--text-color);
+background-image: url(https://images7.alphacoders.com/550/550739.jpg);
+background-size: cover;
 
 font-family: 'Roboto', sans-serif;
 
@@ -31,6 +33,10 @@ min-height: 100vh;
 }
 
 main {
+  background-color: hsla(0, 0%, 10%, 0.6);
+  padding: 2rem;
+  border-color: grey;
+  border-radius: 20px;
   justify-self: center;
   align-self: end;
 }
